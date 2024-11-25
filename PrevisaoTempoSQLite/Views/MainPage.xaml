@@ -17,17 +17,17 @@
 
             <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
                 <Button Text="Obter Localização" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked" 
-                    BackgroundColor="#4CAF50" TextColor="White"/>
+                    BackgroundColor="#87CEFA" TextColor="#0000FF"/>
                 <Button Text="Obter PlaceMark" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked_1" 
-                    BackgroundColor="#03A9F4" TextColor="White"/>
+                    BackgroundColor="#87CEFA" TextColor="#0000FF"/>
                 <Button Text="Histórico" WidthRequest="150" Clicked="Button_Clicked_3"
-                        FontAttributes="Bold" TextColor="White"/>
+                        FontAttributes="Bold" TextColor="#0000FF" BackgroundColor="#87CEFA"/>
             </StackLayout>
             
             <StackLayout Spacing="15" Padding="10" Margin="5">
                 <Button Text="Obter Previsão do Tempo" WidthRequest="200" Clicked="Button_Clicked_2" 
-                    BackgroundColor="#FF5722" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold"/>
-                <Label x:Name="lbl_Weather" FontSize="Small" Text="Dados gerais do local"
+                    BackgroundColor="#87CEFA" TextColor="#0000FF" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label x:Name="lbl_Weather" FontSize="Small" Text="Dados Gerais do Local"
                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
         </StackLayout>

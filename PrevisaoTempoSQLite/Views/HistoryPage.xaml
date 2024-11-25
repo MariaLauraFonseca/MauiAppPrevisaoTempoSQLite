@@ -41,7 +41,7 @@
                 </ListView>
             </VerticalStackLayout>
             <FlexLayout HorizontalOptions="Center">
-                <Button Text="Apagar tudo" TextColor="White" BackgroundColor="#FF4929" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
+                <Button Text="Apagar tudo" TextColor="#0000FF" BackgroundColor="#87CEFA" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
             </FlexLayout>
         </StackLayout>
     </ScrollView>
