@@ -7,7 +7,7 @@
         <StackLayout HorizontalOptions="Center" Padding="20" Spacing="20">
             <Label Text="Histórico de Previsões" HorizontalTextAlignment="Center"/>
             <FlexLayout HorizontalOptions="Center">
-                <SearchBar Placeholder="Pesquise uma previsão pela cidade..." WidthRequest="500" TextChanged="SearchBar_TextChanged" />
+                <SearchBar Placeholder="Consulte uma previsão pelo nome da cidade..." WidthRequest="500" TextChanged="SearchBar_TextChanged" />
             </FlexLayout>
             <VerticalStackLayout>
                 <ListView x:Name="lst_weather">
@@ -41,7 +41,7 @@
                 </ListView>
             </VerticalStackLayout>
             <FlexLayout HorizontalOptions="Center">
-                <Button Text="Apagar tudo" TextColor="#0000FF" BackgroundColor="#87CEFA" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
+                <Button Text="Excluir tudo" TextColor="#0000FF" BackgroundColor="#87CEFA" FontAttributes="Bold" WidthRequest="200" Clicked="Button_Clicked"/>
             </FlexLayout>
         </StackLayout>
     </ScrollView>

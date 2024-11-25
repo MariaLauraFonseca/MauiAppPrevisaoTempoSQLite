@@ -16,18 +16,18 @@
             </FlexLayout>
 
             <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
-                <Button Text="Obter Localização" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked" 
+                <Button Text="Ver Localização" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked" 
                     BackgroundColor="#87CEFA" TextColor="#0000FF"/>
-                <Button Text="Obter PlaceMark" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked_1" 
+                <Button Text="Ver PlaceMark" WidthRequest="150" FontAttributes="Bold" Clicked="Button_Clicked_1" 
                     BackgroundColor="#87CEFA" TextColor="#0000FF"/>
                 <Button Text="Histórico" WidthRequest="150" Clicked="Button_Clicked_3"
                         FontAttributes="Bold" TextColor="#0000FF" BackgroundColor="#87CEFA"/>
             </StackLayout>
             
             <StackLayout Spacing="15" Padding="10" Margin="5">
-                <Button Text="Obter Previsão do Tempo" WidthRequest="200" Clicked="Button_Clicked_2" 
+                <Button Text="Ver Previsão do Tempo" WidthRequest="200" Clicked="Button_Clicked_2" 
                     BackgroundColor="#87CEFA" TextColor="#0000FF" HorizontalOptions="Center" FontAttributes="Bold"/>
-                <Label x:Name="lbl_Weather" FontSize="Small" Text="Dados Gerais do Local"
+                <Label x:Name="lbl_Weather" FontSize="Small" Text="Dados Gerais da Localização"
                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
         </StackLayout>
